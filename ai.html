@@ -1,70 +1,139 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-          <meta charset="UTF-8">
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" href="/favicon.ico" type="image/x-icon">
-        <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- resto de etiquetas... -->
-      <!-- OPEN GRAPH (Facebook, WhatsApp, LinkedIn...) -->
-  <meta property="og:title" content="Guía Completa de Troyanos">
-  <meta property="og:description" content="Educación y análisis de amenazas informáticas: tipos, prevención y eliminación de troyanos.">
-  <meta property="og:url" content="https://victorlopeez1.github.io/">
+
+  <!-- Bing Webmaster Tools -->
+  <meta name="msvalidate.01" content="6969AC031588E91A4057D8F4BF728471">
+
+  <!-- SEO -->
+  <title>AI Risk Assessor: Evalúa el Riesgo de Troyanos con IA | 2026</title>
+  <meta name="description" content="Herramienta de evaluación de riesgo de troyanos asistida por inteligencia artificial. Analiza comportamientos sospechosos y detecta señales de infección.">
+  <link rel="canonical" href="https://victorlopeez1.github.io/ai.html">
+
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🛡️</text></svg>">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="AI Risk Assessor: Evalúa el Riesgo de Troyanos con IA">
+  <meta property="og:description" content="Herramienta de evaluación de riesgo de troyanos asistida por inteligencia artificial. Analiza comportamientos sospechosos y detecta señales de infección.">
+  <meta property="og:url" content="https://victorlopeez1.github.io/ai.html">
   <meta property="og:type" content="website">
   <meta property="og:image" content="https://victorlopeez1.github.io/imagen-preview.jpg">
 
-  <!-- TWITTER CARD -->
+  <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Guía Completa de Troyanos">
-  <meta name="twitter:description" content="Educación y análisis de amenazas informáticas: tipos, prevención y eliminación de troyanos.">
+  <meta name="twitter:title" content="AI Risk Assessor: Evalúa el Riesgo de Troyanos con IA">
+  <meta name="twitter:description" content="Herramienta de evaluación de riesgo de troyanos asistida por inteligencia artificial. Analiza comportamientos sospechosos y detecta señales de infección.">
   <meta name="twitter:image" content="https://victorlopeez1.github.io/imagen-preview.jpg">
-    <link rel="canonical" href="https://victorlopeez1.github.io/ai.html">
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-4VVE1B8TGH"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-4VVE1B8TGH');
-</script>
-<meta charset="UTF-8">
-<title>AI Risk</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="style.css">
+  <!-- Datos estructurados JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "AI Risk Assessor",
+    "description": "Herramienta de evaluación de riesgo de troyanos asistida por inteligencia artificial.",
+    "url": "https://victorlopeez1.github.io/ai.html",
+    "inLanguage": "es",
+    "applicationCategory": "SecurityApplication",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Trojan Awareness Platform",
+      "url": "https://victorlopeez1.github.io/"
+    }
+  }
+  </script>
+
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-4VVE1B8TGH"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-4VVE1B8TGH');
+  </script>
+
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header><h1>AI Risk Assessor</h1></header>
+<header>
+  <h1>AI Risk Assessor</h1>
+  <p>Evalúa el riesgo de infección por troyanos con inteligencia artificial</p>
+</header>
 
 <nav>
-    <a href="index.html">Guía</a>
-    <a href="feed.html">Threat Feed</a>
-    <a href="facts.html">Datos</a>
-    <a href="prevention.html">Prevención</a>
-    <a href="removal.html">Eliminación</a>
-    <a href="ai.html">AI Risk</a>
+  <a href="index.html">Guía</a>
+  <a href="feed.html">Threat Feed</a>
+  <a href="facts.html">Datos</a>
+  <a href="prevention.html">Prevención</a>
+  <a href="removal.html">Eliminación</a>
+  <a href="ai.html">AI Risk</a>
 </nav>
 
 <section class="fade-in">
-    <div class="risk-box">
-        <textarea id="inputData" rows="5"></textarea>
-        <button onclick="assessRisk()">Evaluar Riesgo</button>
-        <p id="result"></p>
-    </div>
+
+  <div class="card">
+    <h2>¿Qué es el AI Risk Assessor?</h2>
+    <p>
+      El AI Risk Assessor es una herramienta educativa que utiliza inteligencia artificial para analizar comportamientos, situaciones o síntomas descritos por el usuario y evaluar el nivel de riesgo de una posible infección por troyano. No reemplaza a un antivirus profesional, pero puede ayudarte a identificar señales de alerta y orientarte sobre los pasos a seguir.
+    </p>
+    <p>
+      Describe en el campo de texto cualquier comportamiento sospechoso que hayas observado en tu dispositivo: programas que se abren solos, lentitud inusual, actividad de red extraña, correos enviados sin tu consentimiento u otros síntomas. La IA analizará tu descripción y te dará una valoración del riesgo junto con recomendaciones específicas.
+    </p>
+  </div>
+
+  <div class="risk-box card">
+    <h2>Evalúa tu riesgo ahora</h2>
+    <p>Describe los síntomas o comportamientos sospechosos que has observado:</p>
+    <textarea id="inputData" rows="5" placeholder="Ejemplo: Mi ordenador va muy lento, se abre el navegador solo y noto que hay tráfico de red cuando no estoy usando internet..."></textarea>
+    <button onclick="assessRisk()">Evaluar Riesgo</button>
+    <p id="result"></p>
+  </div>
+
+  <div class="card">
+    <h2>Señales de riesgo más comunes</h2>
+    <p>
+      Estas son las señales que con mayor frecuencia indican una posible infección por troyano. Si reconoces alguna de ellas en tu dispositivo, es recomendable realizar un análisis completo con un antivirus actualizado.
+    </p>
+    <ul>
+      <li><strong>Ralentización inexplicable del sistema</strong> sin que haya programas pesados en ejecución.</li>
+      <li><strong>Actividad de red elevada</strong> cuando no estás usando el dispositivo ni tienes aplicaciones abiertas.</li>
+      <li><strong>Programas que se abren o cierran solos</strong>, especialmente el navegador o el administrador de tareas.</li>
+      <li><strong>Correos enviados desde tu cuenta</strong> que tú no has redactado ni enviado.</li>
+      <li><strong>Cambios en la página de inicio del navegador</strong> o aparición de extensiones que no has instalado.</li>
+      <li><strong>El antivirus se desactiva solo</strong> o no puede actualizarse correctamente.</li>
+      <li><strong>Aparición de nuevos archivos o carpetas</strong> en ubicaciones del sistema sin explicación aparente.</li>
+      <li><strong>La cámara o el micrófono se activan</strong> sin que hayas abierto ninguna aplicación que los use.</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>¿Qué hacer si el riesgo es alto?</h2>
+    <p>
+      Si la evaluación indica un riesgo elevado o si reconoces varios de los síntomas descritos anteriormente, actúa de inmediato: desconecta el dispositivo de internet para evitar la transmisión de datos y sigue los pasos detallados en nuestra <a href="removal.html">guía de eliminación de troyanos</a>.
+    </p>
+    <p>
+      Para prevenir futuras infecciones, consulta también nuestra <a href="prevention.html">guía de prevención</a> con todas las medidas de seguridad recomendadas.
+    </p>
+  </div>
+
 </section>
 
 <footer>
-    <a href="https://www.jesusninoc.com/" target="_blank" rel="noopener noreferrer">
-        © 2026 Trojan Awareness Platform
-    </a>
-          <a href="https://www.linkedin.com/in/tu-usuario" target="_blank" rel="noopener noreferrer">
+  <a href="https://www.jesusninoc.com/" target="_blank" rel="noopener noreferrer">
+    © 2026 Trojan Awareness Platform
+  </a>
+  <a href="https://www.linkedin.com/in/tu-usuario" target="_blank" rel="noopener noreferrer">
     LinkedIn
   </a>
 </footer>
+
 <script src="js/script.js"></script>
-        <!--Start of Tawk.to Script-->
+
+<!--Start of Tawk.to Script-->
 <script type="text/javascript">
 var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
 (function(){
@@ -77,10 +146,9 @@ s0.parentNode.insertBefore(s1,s0);
 })();
 </script>
 <!--End of Tawk.to Script-->
+
 </body>
 </html>
-
-
 
 
 
