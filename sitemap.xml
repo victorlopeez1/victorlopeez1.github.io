@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/0.9">
+  <url><loc>https://victorlopeez1.github.io/</loc><priority>1.0</priority></url>
+  <url><loc>https://victorlopeez1.github.io/feed.html</loc></url>
+  <url><loc>https://victorlopeez1.github.io/facts.html</loc></url>
+  <url><loc>https://victorlopeez1.github.io/prevention.html</loc></url>
+  <url><loc>https://victorlopeez1.github.io/removal.html</loc></url>
+  <url><loc>https://victorlopeez1.github.io/ai.html</loc></url>
+</urlset>
+```
+
+**4. Actualizar robots.txt para anunciar el sitemap**
+```
+User-agent: *
+Allow: /
+Sitemap: https://victorlopeez1.github.io/sitemap.xml
